@@ -1,77 +1,69 @@
-Here's a README template for your project:
-
 ```markdown
-# Productive Fullstack - Todo Application
+# Todo App
 
 ## Description
 
-Productive Fullstack is a comprehensive Todo application that features a secure login system, allowing users to register and log in. Each user's todos are isolated, providing a personalized experience. The application allows users to create, edit, delete, and mark tasks as completed. It is built using React.js for the frontend and Node.js with Express for the backend.
+This is a Todo App with a secure login system where users can register and log in. Todos are isolated for each user, allowing for personalized task management. The application is built using Node.js for the backend and React for the frontend.
 
 ## Features
-
 - User registration and login
 - Isolated todos for each user
-- Create, edit, delete, and mark tasks as completed
-- Responsive design with Bootstrap
+- Add, edit, delete, and mark tasks as completed
+- Responsive design using React-Bootstrap
 
-## Technologies Used
-
-- Frontend: React.js, Bootstrap
-- Backend: Node.js, Express
-- Database: MySQL
-- Authentication: JSON Web Tokens (JWT)
+## Tech Stack
+- **Frontend:** React, React-Router, React-Bootstrap
+- **Backend:** Node.js, Express
+- **Database:** MySQL
 
 ## Installation
 
-### Backend Setup
-
+### Backend
 1. Navigate to the backend directory:
    ```bash
    cd backend
    ```
 
-2. Install the required dependencies:
+2. Install required packages:
    ```bash
-   npm install
+   npm install mysql2 cors
    ```
 
-3. Create a `.env` file in the backend directory to store environment variables, such as database connection details and JWT secret.
-
-4. Start the backend server:
-   ```bash
-   node server.js
-   ```
-
-### Frontend Setup
-
+### Frontend
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
    ```
 
-2. Install the required dependencies:
+2. Install required packages:
    ```bash
-   npm install
-   ```
-
-3. Start the frontend application:
-   ```bash
-   npm start
+   npm install react-bootstrap react-dom react-router-dom
    ```
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000`.
-2. Register a new account or log in with an existing account.
-3. Start adding, editing, and managing your todos!
+### Running the Backend
+1. Ensure that your MySQL server is running.
+2. Update your database connection settings in `server.js`.
+3. Start the backend server:
+   ```bash
+   node server.js
+   ```
+
+### Running the Frontend
+1. Navigate to the frontend directory (if not already there):
+   ```bash
+   cd frontend
+   ```
+
+2. Start the React application:
+   ```bash
+   npm start
+   ```
 
 ## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or report issues.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
-
 This project is licensed under the MIT License.
 ```
-
-You can customize any section as needed!
