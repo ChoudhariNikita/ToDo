@@ -1,4 +1,3 @@
-```markdown
 # Todo App
 
 ## Description
@@ -17,24 +16,21 @@ This is a Todo App with a secure login system where users can register and log i
 - **Database:** MySQL
 
 ## Installation
-
 ### Backend
 1. Navigate to the backend directory:
    ```bash
    cd backend
-   ```
 
 2. Install required packages:
    ```bash
    npm install mysql2 cors
-   ```
 
 ### Frontend
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
    ```
-
+   
 2. Install required packages:
    ```bash
    npm install react-bootstrap react-dom react-router-dom
@@ -55,7 +51,7 @@ This is a Todo App with a secure login system where users can register and log i
    ```bash
    cd frontend
    ```
-
+   
 2. Start the React application:
    ```bash
    npm start
@@ -67,3 +63,5 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License
 This project is licensed under the MIT License.
 ```
+
+You can copy this entire section as one continuous file without any gaps.
